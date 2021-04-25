@@ -2,7 +2,7 @@
 
 
 ## Features Included: 
-- Networking Calls to retireve API data.
+- Networking Calls to retrieve API data.
 - Infinite Scrolling Tableview.
 - Search bar tied to results in table.
 - Live searching allowing users to search for any items they want from the API.
