@@ -14,7 +14,8 @@
 
 ## Steps to run this project
 
-## 1. Copy and paste `git clone https://github.com/danesh-23/sidelineswap-ios.git` in your terminal.
+## 1. Copy and paste the command below in your terminal.
+`git clone https://github.com/danesh-23/sidelineswap-ios.git`
 
 ## 2. Open the project and click Run. Thats it :) 
 
