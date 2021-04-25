@@ -82,8 +82,8 @@
 				1A04140B26327DCC00D6004C /* View */,
 				1A0413F926327B1600D6004C /* Info.plist */,
 				1A0413F126327B1200D6004C /* Main.storyboard */,
-				1A0413F426327B1600D6004C /* Assets.xcassets */,
 				1A0413F626327B1600D6004C /* LaunchScreen.storyboard */,
+				1A0413F426327B1600D6004C /* Assets.xcassets */,
 			);
 			path = sidelineswap;
 			sourceTree = "<group>";
