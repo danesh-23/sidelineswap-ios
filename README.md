@@ -1,5 +1,5 @@
 # ToplineSwap - iOS 
-![rounded-toplineswap](https://user-images.githubusercontent.com/64529785/116035474-0c9b9d80-a633-11eb-9ddf-3e3329f04b75.png)
+<img width="250" height="250" alt="toplineswap" src="https://user-images.githubusercontent.com/64529785/116035474-0c9b9d80-a633-11eb-9ddf-3e3329f04b75.png">
 
 
 ## Features Included: 
@@ -21,4 +21,3 @@
 ## 2. Open the project and click Run. Thats it :) 
 
 ### Enjoy playing around with it, I had fun making it :))
-
