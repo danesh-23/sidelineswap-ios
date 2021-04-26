@@ -8,11 +8,10 @@
 import Foundation
 import UIKit
 
-
-class CacheManager {
-    static let shared = CacheManager()
+class ImageCacher {
+    static let shared = ImageCacher()
     
-    let cache: NSCache<NSString, NSData>!
+    private let cache: NSCache<NSString, NSData>!
     
     private init() {
         self.cache = NSCache<NSString, NSData>()

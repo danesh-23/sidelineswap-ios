@@ -35,14 +35,14 @@ class ItemsCellViewModel {
     
     private func createImage() {
         guard let url = URL(string: image) else { print("cant convert to url"); return }
-        if let cachedImage = CacheManager.shared.retrieveData(for: NSString(string: url.absoluteString)) {
+        if let cachedImage = ImageCacher.shared.retrieveData(for: NSString(string: url.absoluteString)) {
             itemImageData = cachedImage as Data
         } else {
             WebServices().downloadImage(url: url) { [weak self] (data) in
                 if let data = data {
                     // downloaded images from url successfully
                     self?.itemImageData = data
-                    CacheManager.shared.addData(for: NSString(string: url.absoluteString), with: data as NSData)
+                    ImageCacher.shared.addData(for: NSString(string: url.absoluteString), with: data as NSData)
                 }
             }
         }

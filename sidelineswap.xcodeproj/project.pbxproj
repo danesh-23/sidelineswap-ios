@@ -17,7 +17,7 @@
 		1A0414142632829200D6004C /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0414132632829200D6004C /* WebServices.swift */; };
 		1A041418263286FF00D6004C /* ItemsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A041417263286FF00D6004C /* ItemsCell.swift */; };
 		1A04141C2632961500D6004C /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A04141B2632961500D6004C /* Items.swift */; };
-		1A1ED75026353EEA0037993B /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1ED74F26353EE90037993B /* CacheManager.swift */; };
+		1A1ED75026353EEA0037993B /* ImageCacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1ED74F26353EE90037993B /* ImageCacher.swift */; };
 		1A2821AB2633318000BB13F7 /* ItemsCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2821AA2633318000BB13F7 /* ItemsCellViewModel.swift */; };
 		1A2821B32633D7CB00BB13F7 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2821B22633D7CB00BB13F7 /* SearchBar.swift */; };
 		1A2821BD263496F700BB13F7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2821BC263496F700BB13F7 /* Constants.swift */; };
@@ -37,7 +37,7 @@
 		1A0414132632829200D6004C /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
 		1A041417263286FF00D6004C /* ItemsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsCell.swift; sourceTree = "<group>"; };
 		1A04141B2632961500D6004C /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
-		1A1ED74F26353EE90037993B /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		1A1ED74F26353EE90037993B /* ImageCacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacher.swift; sourceTree = "<group>"; };
 		1A2821AA2633318000BB13F7 /* ItemsCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsCellViewModel.swift; sourceTree = "<group>"; };
 		1A2821B22633D7CB00BB13F7 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		1A2821BC263496F700BB13F7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -121,7 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				1A0414132632829200D6004C /* WebServices.swift */,
-				1A1ED74F26353EE90037993B /* CacheManager.swift */,
+				1A1ED74F26353EE90037993B /* ImageCacher.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -216,7 +216,7 @@
 				1A2821AB2633318000BB13F7 /* ItemsCellViewModel.swift in Sources */,
 				1A0414142632829200D6004C /* WebServices.swift in Sources */,
 				1A2821C22634F9C100BB13F7 /* LoadingCell.swift in Sources */,
-				1A1ED75026353EEA0037993B /* CacheManager.swift in Sources */,
+				1A1ED75026353EEA0037993B /* ImageCacher.swift in Sources */,
 				1A041418263286FF00D6004C /* ItemsCell.swift in Sources */,
 				1A0413EC26327B1200D6004C /* AppDelegate.swift in Sources */,
 				1A2821BD263496F700BB13F7 /* Constants.swift in Sources */,

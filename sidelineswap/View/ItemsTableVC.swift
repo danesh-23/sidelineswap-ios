@@ -16,16 +16,19 @@ class ItemsTableVC: UITableViewController {
     var activityIndicatorView: UIActivityIndicatorView?
     var retryButton: UIButton?
     var messageLabel: UILabel?
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
         configureLoadingScreen()
         setupTableViewModel()
         tableView.allowsSelection = false
-
+   
         searchBar.delegate = self
         navigationItem.titleView = searchBar
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -142,6 +145,7 @@ class ItemsTableVC: UITableViewController {
             let alertViewController = UIAlertController(title: "Couldn't load items", message: "\(string.capitalized). Please fix this and try again.", preferredStyle: .alert)
             alertViewController.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
             self?.present(alertViewController, animated: true, completion: self?.changeMessageLabel)
+            
         }
     }
     
